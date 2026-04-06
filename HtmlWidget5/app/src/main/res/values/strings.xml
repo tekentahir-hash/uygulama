@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HTML Widget</string>
+    <string name="configure_widget">Widget Ayarları</string>
+    <string name="widget_label">HTML Widget</string>
+    <string name="widget_description">HTML dosyasını widget olarak gösterir</string>
+    <string name="select_file">HTML Dosyası Seç</string>
+    <string name="no_file">Dosya seçilmedi</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="error">Dosya yüklenemedi</string>
+    <string name="add_widget">Widget Ekle</string>
+    <string name="cancel">İptal</string>
+    <string name="zoom">Yakınlaştırma (%)</string>
+    <string name="render_delay">Yükleme Bekleme (sn)</string>
+    <string name="scroll_hint">👆 Önizlemede çerçeveyi sürükleyerek konum seçin — köşelerden boyutlandırın</string>
+    <string name="preview_loading">Dosya seçildikten sonra önizleme görünür</string>
+    <string name="scroll_x">Yatay Konum (X px)</string>
+    <string name="scroll_y">Dikey Konum (Y px)</string>
+    <string name="refresh_interval">Yenileme Süresi</string>
+</resources>

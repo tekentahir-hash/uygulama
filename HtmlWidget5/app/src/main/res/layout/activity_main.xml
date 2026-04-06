@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+        android:background="@color/primary" android:gravity="center_vertical"
+        android:paddingStart="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/app_name" android:textColor="#FFF"
+            android:textSize="20sp" android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="20dp" android:gravity="center">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🗂️" android:textSize="52sp" android:layout_marginBottom="12dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="HTML Widget v2" android:textSize="22sp" android:textStyle="bold"
+                android:textColor="@color/text1" android:layout_marginBottom="6dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="HTML dosyalarınızı ana ekran widget\'ı olarak görüntüleyin\nKaydırma konumu, zoom ve yenileme süresini özgürce ayarlayın"
+                android:textSize="13sp" android:textColor="@color/text2"
+                android:gravity="center" android:lineSpacingMultiplier="1.4"
+                android:layout_marginBottom="24dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp" app:cardElevation="2dp"
+                app:cardBackgroundColor="#E3F2FD" android:layout_marginBottom="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="📋 Kullanım" android:textStyle="bold"
+                        android:textColor="@color/primary" android:textSize="14sp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:text="1️⃣  Ana ekrana uzun basın\n2️⃣  Widgets / Widget\'lar seçin\n3️⃣  HTML Widget ekleyin\n4️⃣  HTML dosyası, kaydırma ve yenileme ayarlayın\n5️⃣  Köşeden sürükleyerek boyutu ayarlayın"
+                        android:textSize="13sp" android:textColor="@color/text1"
+                        android:lineSpacingMultiplier="1.6"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
